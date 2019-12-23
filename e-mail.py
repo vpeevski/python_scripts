@@ -28,7 +28,7 @@ try:
     smtpObj.ehlo()
     smtpObj.starttls()
     smtpObj.ehlo()
-    smtpObj.login("vassilpeevsky@gmail.com", "czmucycjxnkmfohz")
+    smtpObj.login("<e-mail address>", "<password>")
     smtpObj.send_message(msg)
     print("Successfully sent email")
 except smtplib.SMTPException as e:
